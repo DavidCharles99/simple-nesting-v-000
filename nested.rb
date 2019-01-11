@@ -1,10 +1,11 @@
 require "pry"
 def hopper
-	binding.pry
+
         grace_hopper = {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
         }
+				binding.pry
 end
 
 def alan_kay_is_known_for
